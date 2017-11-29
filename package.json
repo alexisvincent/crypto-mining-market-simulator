@@ -1,0 +1,23 @@
+{
+  "name": "simulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx browserify -r fs:browserify-fs index.js > bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "browserify-fs": "^1.0.0",
+    "csv": "^1.1.1",
+    "lodash": "^4.17.4",
+    "regression": "^2.0.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  }
+}
